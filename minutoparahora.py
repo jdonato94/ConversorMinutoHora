@@ -11,7 +11,7 @@ def main():
    
     
 def conversor_hora():
-    tempo = int(input("Digite a quantidade de minutos que voce quer converter para horas "))
+    tempo = int(input("Digite a quantidade de minutos que voce quer converter para horas: \n"))
     tempo = tempo
     hora = (tempo / 60)
     if hora < 1:
